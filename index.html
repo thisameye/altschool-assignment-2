@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB DEV TRAINING</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="company-text-container">
+        <div class="company-text">
+          <div class="logo">
+            <img src="./img/Logo.png" alt="" />
+          </div>
+          <h1>For Individuals</h1>
+          <p>
+            Start benefiting from the wellness experience. For companies looking
+            on increasing productivity, and improving organization wellness.
+          </p>
+        </div>
+      </div>
+      <div class="form-field-container">
+        <form action="#">
+          <div class="input-flex">
+            <div class="input-box">
+              <label for="fname">First Name</label> <br />
+              <input type="text" placeholder="Full Name" />
+            </div>
+
+            <div class="input-box">
+              <label for="fname">Last Name</label> <br />
+              <input type="text" placeholder="Last Name" />
+            </div>
+          </div>
+
+          <div class="input-flex">
+            <div class="input-box">
+              <label for="gender">Gender</label><br />
+              <input list="gender" name="browser" placeholder="Select Gender" />
+              <datalist id="gender">
+                <option value="Male"></option>
+                <option value="Female"></option>
+              </datalist>
+            </div>
+
+            <div class="input-box">
+              <label for="dob">Date of Birth</label><br />
+              <input type="date" name="" id="" placeholder="Select Here" />
+            </div>
+          </div>
+
+          <div class="input-flex">
+            <div class="input-box">
+              <label for="fname">Weight(KG)</label> <br />
+              <input type="text" placeholder="Enter Weight" />
+            </div>
+
+            <div class="input-box">
+              <label for="fname">Height(CM)</label> <br />
+              <input type="text" placeholder="Enter Height" />
+            </div>
+          </div>
+
+          <label for="flevels">Activity Level</label> <br />
+          <input
+            class="btn"
+            list="levels"
+            name="browser"
+            placeholder="Select here"
+          />
+          <datalist id="levels">
+            <option value="Novice"></option>
+            <option value="Intermediate"></option>
+            <option value="Professional"></option>
+            <option value="Legend"></option>
+          </datalist>
+
+          <label for="fname">Password</label> <br />
+          <input type="password" class="btn" />
+
+          <input type="submit" value="Register" class="btnx" />
+          <p class="pag">
+            By clicking Register, you agree to our <span>Terms of Use</span> and
+            our <span>Privacy Policy</span>
+          </p>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
